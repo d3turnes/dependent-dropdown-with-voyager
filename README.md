@@ -2,11 +2,37 @@
 Dependent Dropdown with Voyager
  
 # Install
-Download zip https://github.com/d3turnes/dependent-dropdown-with-voyager/archive/master.zip
+Download zip https://github.com/d3turnes/dependent-dropdown-with-voyager/archive/master.zip or
+composer require d3turnes/dependent-dropdown-with-voyager
  
-Copy/Paste the content of routes/api.php in your file routes/api.php
+Edit the file routes/api.php and add the following code
 
-Edit app/Providers/AppServiceProvider.php
+```php
+
+use Illuminate\Http\Request;
+
+/*
+|--------------------------------------------------------------------------
+| API Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register API routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| is assigned the "api" middleware group. Enjoy building your API!
+|
+*/
+
+Route::middleware('auth:api')->get('/user', function (Request $request) {
+   return $request->user();
+});
+
+Route::group(['prefix' => 'v1', 'as' => 'api.v1.', 'namespace' => 'Api\\V1\\'], function() {
+   Route::post('/dependent-dropdown', ['uses' => 'DependentDropdownController@index', 'as' => 'dropdown']);
+});
+
+```
+
+Edit the file app/Providers/AppServiceProvider.php and add the following code
 
 ```php
 
