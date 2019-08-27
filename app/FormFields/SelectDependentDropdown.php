@@ -11,7 +11,7 @@ class SelectDependentDropdown extends AbstractHandler
     public function createContent($row, $dataType, $dataTypeContent, $options)
     {
         /** resource/views/vendor/voyager/formfields/select_dependent_dropdown/select_dependent_dropdown.blade.php */
-		return view('voyager::formfields.select_dependent_dropdown.select_dependent_dropdown', [
+	return view('voyager::formfields.select_dependent_dropdown.select_dependent_dropdown', [
             'row' => $row,
             'options' => $options,
             'dataType' => $dataType,
