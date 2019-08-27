@@ -1,6 +1,7 @@
 # dependent-dropdown-with-voyager
- Dependent Dropdown with Voyager
+Dependent Dropdown with Voyager
  
- # Install
+# Install
+Download zip https://github.com/d3turnes/dependent-dropdown-with-voyager/archive/master.zip
  
- Download zip https://github.com/d3turnes/dependent-dropdown-with-voyager.git
+Copy the content of app/routes/api.php in your file routes
