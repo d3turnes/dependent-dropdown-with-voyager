@@ -9,8 +9,6 @@ Copy/Paste the content of routes/api.php in your file routes/api.php
 Copy/Paste the content of app/Providers/AppServiceProvider.php in your file app/Providers/AppServiceProvider.php
 
 `
-<?php
-
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
