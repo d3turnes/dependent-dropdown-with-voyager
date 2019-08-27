@@ -4,10 +4,6 @@ Dependent Dropdown Ajax with Voyager
 # Install
 Download zip https://github.com/d3turnes/dependent-dropdown-with-voyager/archive/master.zip and decompress the content in your project laravel
 
---or
-
-**git clone https://github.com/d3turnes/dependent-dropdown-with-voyager.git my-project**
- 
 Edit the file routes/api.php and add the following code
 
 ```php
