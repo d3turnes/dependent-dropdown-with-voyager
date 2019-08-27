@@ -68,6 +68,7 @@
 					@foreach($query as $k => $option)
 						<option value="{{$k}}" @if($k==$data[$item->name]){{'selected="selected"'}}@endif>{{$option}}</option>
 					@endforeach
+					</select>
 				@endif
 				</div>	
 			@endforeach
