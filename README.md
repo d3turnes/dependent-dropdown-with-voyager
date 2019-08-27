@@ -2,8 +2,7 @@
 Dependent Dropdown with Voyager
  
 # Install
-Download zip https://github.com/d3turnes/dependent-dropdown-with-voyager/archive/master.zip or
-composer require d3turnes/dependent-dropdown-with-voyager
+Download zip https://github.com/d3turnes/dependent-dropdown-with-voyager/archive/master.zip and decompress the content in your project laravel
  
 Edit the file routes/api.php and add the following code
 
