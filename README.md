@@ -77,9 +77,8 @@ Dependent Dropdown Ajax (Category/Subcategory)
 
 ![productos](https://raw.githubusercontent.com/d3turnes/dependent-dropdown-with-voyager/master/example1/productos.png)
 
-* move the content of example1/database to database/
-* move the content of example1/models to app/
-
+* move the content of example1/models to /app
+* move the content of example1/database to /database
 
 # Example 2
 
