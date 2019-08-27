@@ -71,6 +71,8 @@ class AppServiceProvider extends ServiceProvider
 
 Dependent Dropdown Ajax (Category/Subcategory)
 
+![productos](https://raw.githubusercontent.com/d3turnes/dependent-dropdown-with-voyager/master/example1/productos.png)
+
 # Example 2
 
 Dependent Dropdown Ajax (Country/State/City)
