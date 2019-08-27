@@ -66,3 +66,12 @@ class AppServiceProvider extends ServiceProvider
 }
 
 ```
+
+# Example 1
+
+Dependent Dropdown Ajax (Category/Subcategory)
+
+# Example 2
+
+Dependent Dropdown Ajax (Country/State/City)
+
