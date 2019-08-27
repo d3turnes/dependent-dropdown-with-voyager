@@ -76,6 +76,10 @@ Dependent Dropdown Ajax (Category/Subcategory)
 * move the content of /example1/models to /app
 * move the content of /example1/database to /database
 
+1. composer dumpautoload
+1. php artisan migrate
+2. php artisan db:seed --class=ProductosTableSeeder
+
 # Example 2
 
 Dependent Dropdown Ajax (Country/State/City)
