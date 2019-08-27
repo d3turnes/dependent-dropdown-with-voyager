@@ -6,7 +6,7 @@ Download zip https://github.com/d3turnes/dependent-dropdown-with-voyager/archive
 
 --or
 
-git clode https://github.com/d3turnes/dependent-dropdown-with-voyager.git my-project
+# git clone https://github.com/d3turnes/dependent-dropdown-with-voyager.git my-project
  
 Edit the file routes/api.php and add the following code
 
