@@ -84,8 +84,8 @@ products(id, name, slug, price, dec, subcategory_id, created_at, updated_at)
 * move the content of /example1/database to /database
 
 1. composer dumpautoload
-1. php artisan migrate
-2. php artisan db:seed --class=ProductosTableSeeder
+2. php artisan migrate
+3. php artisan db:seed --class=ProductosTableSeeder
 
 ![model-products](https://raw.githubusercontent.com/d3turnes/storage/master/example1/model.png)
 
@@ -98,3 +98,12 @@ Dependent Dropdown Ajax (Country/State/City)
 
 ![profiles](https://raw.githubusercontent.com/d3turnes/dependent-dropdown-with-voyager/master/example2/profiles.png)
 
+* move the content of /example2/models to /app
+* move the content of /example2/database to /database
+
+1. composer dumpautoload
+2. php artisan migrate
+3. php artisan db:seed --class=CountriesTableSeeder
+3. php artisan db:seed --class=StatesTableSeeder
+3. php artisan db:seed --class=CitiesTableSeeder
+3. php artisan db:seed --class=OfficesTableSeeder
