@@ -71,9 +71,9 @@ class AppServiceProvider extends ServiceProvider
 
 Dependent Dropdown Ajax (Family/Subcategory)
 
-families(id, name, slug)
-subcategories(id, name, slug, family_id)
-products(id, name, slug, price, dec, subcategory_id, created_at, updated_at)
+families(id, name, slug)  
+subcategories(id, name, slug, family_id)  
+products(id, name, slug, price, dec, subcategory_id, created_at, updated_at)  
 
 ![productos](https://raw.githubusercontent.com/d3turnes/dependent-dropdown-with-voyager/master/example1/productos.png)
 
