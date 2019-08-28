@@ -87,6 +87,11 @@ products(id, name, slug, price, dec, subcategory_id, created_at, updated_at)
 1. php artisan migrate
 2. php artisan db:seed --class=ProductosTableSeeder
 
+![model-products](https://raw.githubusercontent.com/d3turnes/storage/master/example1/model.png?token=AH2Q7KF6CGJ6BP4N3J55ENS5MZTB4)
+
+***Definition
+![bread-products](https://raw.githubusercontent.com/d3turnes/storage/master/example1/definition.png?token=AH2Q7KAQ5H4KR2KF437JMF25MZTEC)
+
 # Example 2
 
 Dependent Dropdown Ajax (Country/State/City)
