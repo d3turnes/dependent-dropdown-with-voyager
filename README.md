@@ -75,9 +75,9 @@ families(id, name, slug)
 subcategories(id, name, slug, family_id)  
 products(id, name, slug, price, dec, subcategory_id, created_at, updated_at)  
 
-![list-products](https://raw.githubusercontent.com/d3turnes/storage/master/example1/list.png?token=AH2Q7KHGDDODZTX2GUD4CJ25MZTPA)
-![add-products](https://raw.githubusercontent.com/d3turnes/storage/master/example1/add_new.png?token=AH2Q7KHGTOVTYIIWBQQOMW25MZTT2)
-![edit-products](https://raw.githubusercontent.com/d3turnes/storage/master/example1/edit.png?token=AH2Q7KAHRTIPABURM7NOHOS5MZTVY)
+![list-products](https://raw.githubusercontent.com/d3turnes/storage/master/example1/list.png)
+![add-products](https://raw.githubusercontent.com/d3turnes/storage/master/example1/add_new.png)
+![edit-products](https://raw.githubusercontent.com/d3turnes/storage/master/example1/edit.png)
 
 
 * move the content of /example1/models to /app
@@ -87,10 +87,10 @@ products(id, name, slug, price, dec, subcategory_id, created_at, updated_at)
 1. php artisan migrate
 2. php artisan db:seed --class=ProductosTableSeeder
 
-![model-products](https://raw.githubusercontent.com/d3turnes/storage/master/example1/model.png?token=AH2Q7KF6CGJ6BP4N3J55ENS5MZTB4)
+![model-products](https://raw.githubusercontent.com/d3turnes/storage/master/example1/model.png)
 
 * Definition
-![bread-products](https://raw.githubusercontent.com/d3turnes/storage/master/example1/definition.png?token=AH2Q7KAQ5H4KR2KF437JMF25MZTEC)
+![bread-products](https://raw.githubusercontent.com/d3turnes/storage/master/example1/definition.png)
 
 # Example 2
 
