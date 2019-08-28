@@ -96,6 +96,11 @@ products(id, name, slug, price, dec, subcategory_id, created_at, updated_at)
 
 Dependent Dropdown Ajax (Country/State/City)
 
+countries(id, name)  
+states(id, name, country_id)  
+cities(id, name, state_id)  
+offices(id, name, slug, address, lat, lng, city_id)  
+
 ![add-offices](https://raw.githubusercontent.com/d3turnes/storage/master/example2/add_new.png)
 
 * move the content of /example2/models to /app
