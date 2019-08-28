@@ -85,7 +85,7 @@ products(id, name, slug, price, dec, subcategory_id, created_at, updated_at)
 
 1. composer dumpautoload
 2. php artisan migrate
-3. php artisan db:seed --class=ProductosTableSeeder
+3. php artisan db:seed --class=ProductsTableSeeder
 
 ![model-products](https://raw.githubusercontent.com/d3turnes/storage/master/example1/model.png)
 
