@@ -1,8 +1,11 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use TCG\Voyager\Traits\Seedable;
 
-class ProfilesTableSeeder extends Seeder
+use TCG\Voyager\Models\Permission;
+
+class OfficesTableSeeder extends Seeder
 {
 
     /**
