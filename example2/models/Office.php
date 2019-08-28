@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Office extends Model
 {
     protected $fillable = [
-		'city_id'
+		'name', 'slug', 'address', 'lat', 'lng', 'city_id'
 	];
 	
 	public $timestamps = false;
