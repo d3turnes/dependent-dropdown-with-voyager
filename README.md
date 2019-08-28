@@ -75,7 +75,10 @@ families(id, name, slug)
 subcategories(id, name, slug, family_id)  
 products(id, name, slug, price, dec, subcategory_id, created_at, updated_at)  
 
-![productos](https://raw.githubusercontent.com/d3turnes/dependent-dropdown-with-voyager/master/example1/productos.png)
+![list-products](https://raw.githubusercontent.com/d3turnes/storage/master/example1/list.png?token=AH2Q7KDPMRCUHNKTJTBVK625MZSMU)
+![add-products](https://raw.githubusercontent.com/d3turnes/storage/master/example1/add_new.png?token=AH2Q7KBQCAEDSET36P32HPS5MZSOY)
+![edit-products](https://raw.githubusercontent.com/d3turnes/storage/master/example1/edit.png?token=AH2Q7KEFBRQO46MDB5XSLU25MZSQM)
+
 
 * move the content of /example1/models to /app
 * move the content of /example1/database to /database
