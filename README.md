@@ -116,4 +116,4 @@ offices(id, name, slug, address, lat, lng, city_id)
 ![model-offices](https://raw.githubusercontent.com/d3turnes/storage/master/example2/model.png)
 
 * Definition
-![bread-offices](https://raw.githubusercontent.com/d3turnes/storage/master/example2/definition.png)
+![bread-defition-offices](https://raw.githubusercontent.com/d3turnes/storage/master/example2/bread_definition.png)
