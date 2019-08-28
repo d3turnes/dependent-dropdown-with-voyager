@@ -180,7 +180,21 @@ class OfficesTableSeeder extends Seeder
                 'delete' => 0,
                 'details' => '{"model":"App\\\\Country","name":"country_id","route":"api.v1.dropdown","display":"Country","placeholder":"Select a country","key":"id","label":"name","dependent_dropdown":[{"model":"App\\\\State","name":"state_id","display":"State","placeholder":"Select a state","key":"id","label":"name","where":"country_id"},{"model":"App\\\\City","name":"city_id","display":"City","placeholder":"Select a city","key":"id","label":"name","where":"state_id"}],"validation":{"rule":"required|gt:0"}}',
                 'order' => 7,
-            ]			
+            ],
+			[
+				'data_type_id' => $data_type_id,
+                'field' => 'office_belongsto_city_relationship',
+                'type' => 'relationship',
+                'display_name' => 'City',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 0,
+                'add' => 0,
+                'delete' => 0,
+                'details' => '{"model":"App\\\\City","table":"cities","type":"belongsTo","column":"city_id","key":"id","label":"name","pivot_table":"offices","pivot":"0","taggable":"0"}',
+                'order' => 8,
+            ]
 		]);
 		
 		/** Generate permision role */
