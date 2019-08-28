@@ -96,7 +96,7 @@ products(id, name, slug, price, dec, subcategory_id, created_at, updated_at)
 
 Dependent Dropdown Ajax (Country/State/City)
 
-![profiles](https://raw.githubusercontent.com/d3turnes/dependent-dropdown-with-voyager/master/example2/profiles.png)
+![add-offices](https://raw.githubusercontent.com/d3turnes/storage/master/example2/add_new.png)
 
 * move the content of /example2/models to /app
 * move the content of /example2/database to /database
@@ -107,3 +107,8 @@ Dependent Dropdown Ajax (Country/State/City)
 3. php artisan db:seed --class=StatesTableSeeder
 3. php artisan db:seed --class=CitiesTableSeeder
 3. php artisan db:seed --class=OfficesTableSeeder
+
+![model-offices](https://raw.githubusercontent.com/d3turnes/storage/master/example2/model.png)
+
+* Definition
+![bread-offices](https://raw.githubusercontent.com/d3turnes/storage/master/example2/definition.png)
