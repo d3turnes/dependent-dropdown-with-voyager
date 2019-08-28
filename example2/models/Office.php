@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Profile extends Model
+class Office extends Model
 {
     protected $fillable = [
 		'city_id'
