@@ -89,7 +89,7 @@ products(id, name, slug, price, dec, subcategory_id, created_at, updated_at)
 
 ![model-products](https://raw.githubusercontent.com/d3turnes/storage/master/example1/model.png?token=AH2Q7KF6CGJ6BP4N3J55ENS5MZTB4)
 
-***Definition
+** Definition
 ![bread-products](https://raw.githubusercontent.com/d3turnes/storage/master/example1/definition.png?token=AH2Q7KAQ5H4KR2KF437JMF25MZTEC)
 
 # Example 2
